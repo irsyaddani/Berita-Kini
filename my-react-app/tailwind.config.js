@@ -10,7 +10,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ["inter"],
-        "nunito-sans": ["Nunito Sans", "ui-sans-serif" ],
+        "nunito-sans": ["Nunito Sans"],
         poppins: ["Poppins"],
         sora: ["Sora Variable"],
       },

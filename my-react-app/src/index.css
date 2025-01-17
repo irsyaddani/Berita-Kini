@@ -4,12 +4,12 @@
 
 /* @import '@fontsource-variable/nunito-sans'; */
 
-@font-face {
+/* @font-face {
     font-family: 'Nunito Sans';
     src: url('@fontsource-variable/nunito-sans') format('woff2-variations');
     font-weight: 200 1000;
     font-display: swap;
-  }
+  } */
 
   * {
     @apply font-inter m-0 box-border;
