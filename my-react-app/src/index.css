@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import '@fontsource-variable/nunito-sans';
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('@fontsource-variable/nunito-sans') format('woff2-variations');
+    font-weight: 200 1000;
+    font-display: swap;
+  }
+
+  * {
+    @apply font-inter m-0 box-border;
+  }
+  
+  .btn-primary {
+    @apply px-2.5 md:px-5 py-2 md:py-[14px] bg-primary-500 hover:bg-[#106EEA] focus:bg-[#106EEA] focus:shadow-[0_0_0_2px_#628DFC40] disabled:bg-[#E0E0E0] text-white rounded-md transition-all ease-out duration-300;
+  }
+  
+  .btn-primary-sqr {
+    @apply p-3 bg-primary-500 hover:bg-[#106EEA] focus:bg-[#106EEA] focus:shadow-[0_0_0_2px_#628DFC40] disabled:bg-[#E0E0E0] text-white rounded-md transition-all ease-out duration-300;
+  }
+  
+  .input-field-v1 {
+    @apply px-3 lg:px-4 py-4 lg:py-[18px] flex items-center space-x-2 text-body-md text-[#333333] border border-[#E0E0E0] focus-within:shadow-[0_0_0_2px_#F2F2F2] rounded-lg transition-all ease-out duration-300;
+  
+    input::placeholder {
+      @apply text-[#BDBDBD];
+    }
+  }
+  
+  .input-field-v1 input[type="text"] {
+    @apply w-full md:w-72 lg:w-[434px] outline-none;
+  }
