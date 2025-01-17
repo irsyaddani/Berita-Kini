@@ -1,6 +1,7 @@
 // const flowbite = require("flowbite-react/tailwind");
 
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     // flowbite.content(),
@@ -9,7 +10,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ["inter"],
-        "nunito-sans": ["Nunito Sans"],
+        "nunito-sans": ["Nunito Sans", "ui-sans-serif" ],
         poppins: ["Poppins"],
         sora: ["Sora Variable"],
       },

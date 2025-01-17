@@ -47,7 +47,7 @@ const Pagination = ({
             style={{ width: "16px", height: "16px" }}
           />
 
-          <span className="hidden lg:inline text-body-md text-[#526071] hover:font-bold transition-all ease-out duration-300">
+          <span className="hidden lg:inline text-body-md text-[#526071] hover:font-bold transition-all ease-out duration-200">
             Previous
           </span>
         </button>
@@ -62,7 +62,7 @@ const Pagination = ({
                     typeof page === "number" &&
                     "hover:bg-primary-500 hover:text-white"
                   }`
-            } rounded-lg transition-all duration-300 ease-out`}
+            } rounded-lg transition-all duration-200 ease-out`}
             onClick={() => typeof page === "number" && onPageChange(page)}
             disabled={typeof page !== "number"}
           >
@@ -77,7 +77,7 @@ const Pagination = ({
           onClick={() => onPageChange(currentPage + 1)}
           disabled={currentPage === totalPages}
         >
-          <span className="hidden lg:inline text-body-md text-[#526071] hover:font-bold transition-all ease-out duration-300">
+          <span className="hidden lg:inline text-body-md text-[#526071] hover:font-bold transition-all ease-out duration-200">
             Next
           </span>
 

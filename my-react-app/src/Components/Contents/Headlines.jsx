@@ -83,7 +83,7 @@ const Headline = () => {
               Headline
             </span>
 
-            <h1 className="text-2xl lg:text-4xl font-bold text-[#333333] lg:leading-[46px]">
+            <h1 className="font-nunito-sans text-2xl lg:text-4xl font-bold text-[#333333] lg:leading-[46px]">
               {currentItem?.title || "Loading..."}
             </h1>
 
@@ -115,7 +115,7 @@ const Headline = () => {
         <img
           src={currentItem.thumbnail}
           alt="headline-thumbnail"
-          className="order-1 col-span-5 lg:col-span-7 w-full h-[417px] bg-gray-300 rounded-[20px]"
+          className="order-1 col-span-5 lg:col-span-7 w-full h-fit lg:h-[417px] object-center object-cover bg-gray-300 rounded-[20px]"
         />
       </figure>
 
