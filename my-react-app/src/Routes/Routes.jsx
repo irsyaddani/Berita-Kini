@@ -2,7 +2,7 @@ import Beranda from "../Pages/Beranda"
 import KategoriBerita from "../Pages/KategoriBerita"
 import DetailBerita from "../Pages/DetailBerita"
 
-const base = "/berita-kini";
+const base = "/Berita-Kini";
 
 const routes = [
     { name: "Beranda", path: `${base}/`, component: <Beranda /> },
